@@ -8,7 +8,7 @@ from tensorflow.keras.models import load_model  # type: ignore
 from collections import deque
 
 # Sampling rate
-SAMPLING_RATE = 50  # Hz
+SAMPLING_RATE = 50 #Hz
 
 #Loading the trained model 
 model_path = r"best_models\XLarge_model.h5"
